@@ -314,7 +314,7 @@ a {
 
 .link__text {
   display: inline-block;
-  padding-left: 44px;
+  /* padding-left: 44px; */
   font-weight: 700;
   opacity: 1;
   transition: 0.5s;
@@ -571,7 +571,7 @@ table td {
 
 button:first-child {
   color: black;
-  /* background-color: black; */
+  background-color: black;
   border: 1px solid;
   border-radius: 5px;
   width: 4vw;
@@ -588,7 +588,7 @@ button:first-child:hover {
 }
 
 table button:nth-child(2) {
-  /* background-color: black; */
+  background-color: black;
   border: 1px solid;
   border-radius: 5px;
   width: 4vw;
@@ -621,6 +621,13 @@ button:nth-child(2):hover {
   font-weight: 700;
   font-size: 10px;
   margin-left: 20%;
+}
+
+iconify-icon{
+  /* height: 5vh; */
+  color: white;
+  scale: 180%;
+  text-align: center;
 }
 
 a {

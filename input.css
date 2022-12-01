@@ -314,7 +314,7 @@ a {
 
 .link__text {
   display: inline-block;
-  padding-left: 44px;
+  /* padding-left: 44px; */
   font-weight: 700;
   opacity: 1;
   transition: 0.5s;
@@ -661,4 +661,11 @@ i {
 
 i:hover {
   color: black;
+}
+
+iconify-icon{
+  /* height: 5vh; */
+  color: white;
+  scale: 180%;
+  text-align: center;
 }
