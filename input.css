@@ -488,21 +488,19 @@ a {
   text-align: center;
   color: white;
   background-color: #598EF3;
-  width: 11%;
-  left: 26%;
-  bottom: 80%;
+  left: 80%;
   border-radius: 15px;
   padding: 0.5% 0;
-  width: 10vw;
+  width: 8vw;
   font-weight: 700;
   cursor: pointer;
   transition: all .3s ease;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.562);
-  bottom: 80.3%;
+  bottom: 20%;
+  z-index: 3;
 }
 
 .btn-data:hover{
-  bottom: 80%;
   box-shadow: none;
 }
 
@@ -510,16 +508,18 @@ table {
   font-family: 'Quicksand', sans-serif;
   position: absolute;
   top: 24%;
-  left: 24.5%;
+  left: 36%;
   float: right;
-  width: 70vw;
+  width: 50vw;
   border-spacing: 0;
   box-shadow: 2px 2px 7px;
-  border-top-right-radius: 30px;
-  border-top-left-radius: 30px;
+  border-radius: 30px;
   transition: all .5s ease;
   height: 7rem; 
   background-color: white;
+  padding: 5%;
+  scale: 125%;
+  z-index: 2;
 }
 
 table th {
@@ -538,10 +538,6 @@ table th:nth-child(6) {
   border-top-right-radius: 30px;
 }
 
-table tr:nth-child(even){
-  background-color: #dadada;
-}
-
 table td {
   /* background-color: #dadada;   */
   text-align: center;
@@ -549,8 +545,23 @@ table td {
   /* border-bottom: 1px solid white; */
 }
 
+table tr td:nth-child(1) {
+  text-align: left;
+  padding-left: 5%;
+  color: black;
+  font-weight: 700;
+}
+
 .table th:nth-child(5) {
   width: 40px;
+}
+
+table tr td input {
+  background-color: #D9D9D9;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 1px 1px 2px;
+  padding: 1% 4%;
 }
 
 .btn {
@@ -605,6 +616,11 @@ button:nth-child(2):hover {
   
 }
 
+.foto {
+  background: none;
+  box-shadow: none;
+}
+
 .foto::-webkit-file-upload-button {
   visibility: hidden;
 }
@@ -612,15 +628,26 @@ button:nth-child(2):hover {
 .foto::before {
   content: 'Pilih Foto';
   display: inline-block;
-  background: linear-gradient(top, #f9f9f9, #e3e3e3);
+  background-color: #598EF3;
+  color: white;
   border: 1px solid #999;
   border-radius: 3px;
-  padding: 5px 8px;
+  padding: 1% 4%;
   cursor: pointer;
-  text-shadow: 1px 1px #fff;
   font-weight: 700;
   font-size: 10px;
-  margin-left: 20%;
+  margin-left: 16%;
+}
+
+.backcard {
+  background-color: #598EF3;
+  position: absolute;
+  z-index: 1;
+  padding-left: 10%;
+  padding-top: 6%;
+  left: 35%;
+  top: 22%;
+  transition: all .5s ease;
 }
 
 a {

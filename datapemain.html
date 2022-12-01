@@ -4,11 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>dashboard</title>
+    <title>data</title>
     <link rel="stylesheet" href="style.css" />
 
     <!-- icon -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
 
     <!-- font google -->
     <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Noto+Sans+JP:wght@100&family=Oswald:wght@200;300;400&family=Poppins:wght@100;300;400;500;600;700&family=Quicksand:wght@300;400&family=Roboto+Mono&family=Roboto:wght@400;500;700&family=Rubik:wght@300;500;600;800&display=swap" rel="stylesheet">
@@ -30,13 +30,13 @@
         <nav class="menu__nav nav">
           <ul class="nav__list">
             <li class="nav__item" data-text="Dashboard">
-              <a href="#" class="nav__item-link link">
+              <a href="index.html" class="nav__item-link link">
                 <span class="link__icon dashboard"></span>
                 <p class="link__text">Dashboard</p>
               </a>
             </li>
             <li class="nav__item" data-text="Data Pemain">
-              <a href="datapemain.html" class="nav__item-link link">
+              <a href="#" class="nav__item-link link">
                 <span class="link__icon products"></span>
                 <p class="link__text">Data Pemain</p>
               </a>
@@ -107,7 +107,7 @@
       </menu>
       <div class="topbar">
         <div class="itemtop">
-          <h1>Dashboard</h1>
+          <h1>Data Pemain</h1>
           <ul>
             <li>Saady Muflih</li>
             <li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAaNJREFUWEftl/E1xEAQh7+rgA7QARWgAyqgg6MCdEAFqIASqIAOnA7owPt52Rc5m83MJLmX88y/md359pfZmdkZE7PZxHj4U0CbwBw4AnYrpV+BR+AG+IioH1XoAHgABJUzwRwDT16oCJDUeDEG2gOkmtkiQAtgyxhBvjtG3283L9ApcOsJUP065ZXJvEB3wIlp59rpHtBBTOYFUpLum3aunZ4BXQKTrT3QJXBhOmrtdA5cW9d4FdoG3qybV366ZbptJvMCaVOdVhXaYqrYZxbH5BMB0lpLcruSuS+Q1iufdPqNJQU+KxX13W1RhX4GyjVXN8gQCoWDlhYOodCgYBEgdXs11zQDtQGpy7+P2e2VpOpjqkUeUw1SD7yyLLIoJCU0jHlBluMLTENbcT7qAoqMGyUhNEmqlUixrJWAPJOh5W8kH0EdtilVAvJMhh4g+bZOkm1Aka7uhcpOAW1AY6qTwLMq5YDGyp2cgr9GkxyQepOu+SpMZaDxAMgBrSJ/0mFVLBtTwVoA6YVgfiX0/K8a9BrP7a5K3TOef/k/UJdmk1PoCwoEPyUPf8g3AAAAAElFTkSuQmCC"/></li>
@@ -116,25 +116,52 @@
       </div>
     </div>
 
-    <!-- <table id="tbl">
+    <div class="btn-data">
+      <p>+ Tambah</p>
+    </div>
+
+    <table id="tbl">
       <tr>
-          <th>NISN</th>
-          <th>Nama</th>
-          <th>Jenis Kelamin</th>
-          <th>Kelas</th>
+        <th>ID</th>
+        <th>Foto</th>
+        <th>Nama</th>
+        <th>Username</th>
+        <th>Keterangan</th>
           <th class="action">Action</th>
       </tr>
               <tr>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
+              <td>aaaa</td>
+              <td>bbbbbb</td>
+              <td>ccccccc</td>
+              <td>ddddddd</td>
+              <td>eeee</td>
               <td> 
-                  <button style="margin-right:-20px;"> <a href='#'></a> <i class='fa-solid fa-pen-to-square'></i></button>
-                  <button style="margin-left: -20px;"> <a href='#'></a> <i class='fa-solid fa-trash'></i></button>
+                  <button style="margin-right:-20px;"> <a href='#'></a> <iconify-icon icon="material-symbols:edit-square-outline"></iconify-icon></button>
+                  <button style="margin-left: -20px;"> <a href='#'></a> <iconify-icon icon="uil:trash"></iconify-icon></button>
               </td>
-              </tr>
-  </table> -->
-
+              <tr>
+              <td>aaaa</td>
+              <td>bbbbbb</td>
+              <td>ccccccc</td>
+              <td>ddddddd</td>
+              <td>eeee</td>
+              <td> 
+                  <button style="margin-right:-20px;"> <a href='#'></a> <iconify-icon icon="material-symbols:edit-square-outline"></iconify-icon></button>
+                  <button style="margin-left: -20px;"> <a href='#'></a> <iconify-icon icon="uil:trash"></iconify-icon></button>
+              </td>
+              <tr>
+              <td>aaaa</td>
+              <td>bbbbbb</td>
+              <td>ccccccc</td>
+              <td>ddddddd</td>
+              <td>eeee</td>
+              <td> 
+                  <button style="margin-right:-20px;"> <a href='#'></a> <iconify-icon icon="material-symbols:edit-square-outline"></iconify-icon></button>
+                  <button style="margin-left: -20px;"> <a href='#'></a> <iconify-icon icon="uil:trash"></iconify-icon></button>
+              </td>
+             
+  </table>
+  <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
+  <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
   </body>
 </html>
