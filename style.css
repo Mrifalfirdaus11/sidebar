@@ -57,15 +57,34 @@ a {
   width: 80px;
 }
 
-.menu__top {
-  margin-right: 50%;
+.sidetop {
+  width: 100%;
+}
+
+.logoo {
+  margin-left: 30%;
   margin-top: 10%;
-  margin-bottom: 10%;
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+.logoo img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.menu__top {
+  /* margin-right: 50%; */
+  margin-left: 22%;
+  margin-top: 10%;
+  margin-bottom: -20px;
   font-size: 18px;
   color: white;
   background-color: #598EF3;
-  border-bottom-right-radius: 30px;
-  border-top-right-radius: 30px;
+  border-radius:  30px;
   text-align: center;
   padding: 4% 3%;
   width: 52%;
@@ -241,6 +260,7 @@ a {
 .nav__list {
   width: 100%;
   padding: 1rem -12px;
+  margin-top: 20%;
 }
 
 /* .nav__list:not(:last-child) {
@@ -462,6 +482,11 @@ a {
   display: flex;
 }
 
+.itemtop h1 {
+  font-size: 25px;
+  font-weight: 500;
+}
+
 .itemtop ul {
   position: absolute;
   left: 82%;
@@ -561,8 +586,12 @@ table td {
   bottom: 30%;
   width: 9vw;
   /* border-radius: 20px; */
-  background-color: #a4a3a3;
+  /* background-color: #a4a3a3; */
   box-sizing: border-box;
+}
+
+table button {
+  border: none;
 }
 
 .button a:first-child {
@@ -571,9 +600,10 @@ table td {
 
 button:first-child {
   color: black;
-  background-color: black;
-  border: 1px solid;
-  border-radius: 5px;
+  /* background-color: black; */
+  background: none;
+  /* border: 1px solid;
+  border-radius: 5px; */
   width: 4vw;
   height: 4vh;
   float: left;
@@ -581,16 +611,17 @@ button:first-child {
   transition: all .5s ease;
 }
 
-button:first-child:hover {
+/* button:first-child:hover {
   background-color: yellow;
   margin-top: -3px;
   box-shadow: 0 0 5px;
-}
+} */
 
 table button:nth-child(2) {
-  background-color: black;
-  border: 1px solid;
-  border-radius: 5px;
+  /* background-color: black; */
+  background: none;
+  /* border: 1px solid; */
+  /* border-radius: 5px; */
   width: 4vw;
   height: 4vh;
   float: right;
@@ -598,12 +629,12 @@ table button:nth-child(2) {
   transition: all .5s ease;
 }
 
-button:nth-child(2):hover {
+/* button:nth-child(2):hover {
   background-color: red;
   margin-top: -3px;
   box-shadow: 0 0 5px;
   
-}
+} */
 
 .foto::-webkit-file-upload-button {
   visibility: hidden;
@@ -630,6 +661,14 @@ iconify-icon{
   text-align: center;
 }
 
+table iconify-icon{
+  /* height: 5vh; */
+  color: black;
+  scale: 180%;
+  text-align: center;
+  cursor: pointer;
+}
+
 a {
   text-decoration: none;
 }
@@ -642,3 +681,7 @@ i {
 i:hover {
   color: black;
 }
+
+
+/* DIAGRAM */
+

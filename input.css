@@ -57,15 +57,34 @@ a {
   width: 80px;
 }
 
-.menu__top {
-  margin-right: 50%;
+.sidetop {
+  width: 100%;
+}
+
+.logoo {
+  margin-left: 30%;
   margin-top: 10%;
-  margin-bottom: 10%;
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+.logoo img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.menu__top {
+  /* margin-right: 50%; */
+  margin-left: 22%;
+  margin-top: 10%;
+  margin-bottom: 35px;
   font-size: 18px;
   color: white;
   background-color: #598EF3;
-  border-bottom-right-radius: 30px;
-  border-top-right-radius: 30px;
+  border-radius:  30px;
   text-align: center;
   padding: 4% 3%;
   width: 52%;
@@ -462,6 +481,11 @@ a {
   display: flex;
 }
 
+.itemtop h1 {
+  font-size: 25px;
+  font-weight: 500;
+}
+
 .itemtop ul {
   position: absolute;
   left: 82%;
@@ -489,15 +513,20 @@ a {
   color: white;
   background-color: #598EF3;
   left: 80%;
-  border-radius: 15px;
+  border-radius: 5px;
   padding: 0.5% 0;
-  width: 8vw;
+  width: 6vw;
   font-weight: 700;
   cursor: pointer;
   transition: all .3s ease;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.562);
   bottom: 20%;
   z-index: 3;
+}
+
+.btn-data p span {
+  margin-left: 4%;
+  color: white;
 }
 
 .btn-data:hover{
@@ -512,8 +541,8 @@ table {
   float: right;
   width: 50vw;
   border-spacing: 0;
-  box-shadow: 2px 2px 7px;
-  border-radius: 30px;
+  box-shadow: 4px 4px 7px;
+  border-radius: 10px;
   transition: all .5s ease;
   height: 7rem; 
   background-color: white;
@@ -610,7 +639,7 @@ table button:nth-child(2) {
 }
 
 button:nth-child(2):hover {
-  background-color: red;
+  /* background-color: red; */
   margin-top: -3px;
   box-shadow: 0 0 5px;
   
