@@ -473,7 +473,7 @@ a {
   color: black;
   padding-left: 2%;
   width: 79%;
-  height: 10vh;
+  height: 11vh;
   background-color: white;
 }
 
@@ -496,6 +496,7 @@ a {
 .itemtop ul li {
   float: right;
   margin-right: 10px;
+  margin-top: -5px;
 }
 
 .itemtop ul li:nth-child(2) {

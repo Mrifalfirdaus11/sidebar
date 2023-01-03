@@ -2,6 +2,7 @@
 
 html {
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 *,
@@ -474,7 +475,7 @@ a {
   color: black;
   padding-left: 2%;
   width: 79%;
-  height: 10vh;
+  height: 11vh;
   background-color: white;
 }
 
@@ -497,6 +498,7 @@ a {
 .itemtop ul li {
   float: right;
   margin-right: 10px;
+  margin-top: -5px;
 }
 
 .itemtop ul li:nth-child(2) {
@@ -506,6 +508,10 @@ a {
   width: 48px;
   height: 48px;
   padding: 4px;
+}
+
+.btncont {
+  display: flex;
 }
 
 .btn-data {
@@ -529,6 +535,53 @@ a {
 .btn-data:hover{
   bottom: 80%;
   box-shadow: none;
+}
+
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.search input {
+  height: 6vh;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid transparent;
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.searchTerm:focus{
+  color: #00B4CC;
+}
+
+.searchButton {
+  width: 40px;
+  height: 36px;
+  border: 1px solid #00B4CC;
+  background: #598EF3;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap {
+  z-index: 1;
+  width: 30%;
+  position: absolute;
+  top: 17%;
+  left: 80%;
+  transform: translate(-50%, -50%);
 }
 
 table {
@@ -682,6 +735,70 @@ i:hover {
   color: black;
 }
 
+.row {
+  position: absolute;
+  bottom: 60%;
+  left: 20%;
+}
 
-/* DIAGRAM */
 
+.card {
+  /* position: absolute; */
+  display: flex;
+  float: left;
+  text-align: center;
+  margin: 0 180px;
+  /* background-color: white; */
+  scale: 110%;
+}
+
+.cardcontent {
+  margin-top: 8%;
+}
+
+.card .cardbody {
+  background-color: white;
+  width: 18vw;
+  height: 20vh;
+  border-radius: 10px;
+}
+
+.card .cardbody:nth-child(2) {
+  margin-left: 250px;
+  background-color: white;
+  width: 18vw;
+}
+
+.roww {
+  position: absolute;
+  bottom: 60%;
+  left: 19.5%;
+  z-index: -1;
+}
+
+.cardd {
+  /* position: absolute; */
+  display: flex;
+  float: left;
+  text-align: center;
+  margin: 0 180px;
+  /* background-color: white; */
+  scale: 110%;
+}
+
+.cardcontentt {
+  margin-top: 8%;
+}
+
+.cardd .cardbodyy {
+  background-color: #598EF3;
+  width: 18vw;
+  height: 20vh;
+  border-radius: 10px;
+}
+
+.cardd .cardbodyy:nth-child(2) {
+  margin-left: 250px;
+  background-color: #598EF3;
+  width: 18vw;
+}
